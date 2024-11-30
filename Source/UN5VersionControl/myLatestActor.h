@@ -4,21 +4,20 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "myNewActor.generated.h"
+#include "myLatestActor.generated.h"
 
 UCLASS()
-class UN5VERSIONCONTROL_API AmyNewActor : public AActor
+class UN5VERSIONCONTROL_API AmyLatestActor : public AActor
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AmyNewActor();
+	AmyLatestActor();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-	virtual void nn() override;
 
 public:	
 	// Called every frame
